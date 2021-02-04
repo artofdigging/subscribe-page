@@ -8,7 +8,7 @@ function Social() {
         <React.Fragment>
             <ul className={styles.socialUL}>
                 <li className={styles.socialLI}>
-                    <a href="https://www.facebook.com/artofdigging">
+                    <a href="https://www.facebook.com/Art-of-Digging-351486369272384">
                         <Image className={styles.invertSVG} src="/facebook.svg" width="40" height="40" />
                     </a>
                 </li>
