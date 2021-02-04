@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import subscribe from '../pages/api/subscribe';
+import styles from '../styles/Subscribe.module.css';
 
 function Subscribe() {
   // 1. Create a reference to the input so we can fetch/clear it's value.
@@ -32,27 +33,36 @@ function Subscribe() {
 
     // 5. Clear the input value and show a success message.
     inputEl.current.value = '';
-    setMessage('Success! 🎉 You are now subscribed to the newsletter.');
+    setMessage('Thank you for subscribing!');
   };
 
   return (
-    <form onSubmit={subscribe}>
-      <label htmlFor="email-input">{'Email Address'}</label>
-      <input
-        id="email-input"
-        name="email"
-        placeholder="you@awesome.com"
-        ref={inputEl}
-        required
-        type="email"
-      />
-      <div>
-        {message
-          ? message
-          : `I'll only send emails when new content is posted. No spam.`}
-      </div>
-      <button type="submit">{'✨ Subscribe 💌'}</button>
-    </form>
+    <div className={styles.subscribeForm} >
+        <div className={styles.subscribeTitle}>ART OF DIGGING</div>
+        <div className={ `${styles.subscribeSubTitle}`}>Subscribe for more information on when the site goes live!</div>
+        <form onSubmit={subscribe} className={ `uk-grid-small uk-grid uk-grid-stack`} data-uk-grid>
+
+            {message ? message : (
+            <React.Fragment>
+                <div className="uk-width-3-4@s">
+                    <input
+                        id="email-input"
+                        name="email"
+                        placeholder="Enter your email"
+                        ref={inputEl}
+                        required
+                        type="email"
+                        className="uk-input"
+                    />
+                </div>
+            
+                <div className="uk-width-1-4@s">
+                    <button type="submit" className={`${styles.subscribeBtn} uk-button uk-button-default`}>{'SUBSCRIBE'}</button>
+                </div> 
+            </React.Fragment>
+            )}
+        </form>
+    </div>
   );
 }
 

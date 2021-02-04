@@ -1,0 +1,13 @@
+.invertSVG {
+    filter: invert(100%)
+}
+
+.socialLI {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.socialUL {
+    padding: 0;
+}

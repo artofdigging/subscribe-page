@@ -1,0 +1,27 @@
+.subscribeForm {
+    border: 1px solid #ffffff;
+    padding: 16px;
+    padding-top: 0;
+    margin-top: 16px;
+}
+
+.subscribeTitle {
+    text-align: center;
+    font-weight: bold;
+    background-color: #000000;
+    position: relative;
+    top: -12px;
+    min-width: 50%;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.subscribeSubTitle {
+    margin-bottom: 8px;
+}
+
+.subscribeBtn {
+    width: 100%;
+    color: #ffffff;
+    padding: 0;
+}
