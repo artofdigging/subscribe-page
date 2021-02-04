@@ -6,10 +6,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <Helmet>
-            <link href="//fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet" title="Google Fonts" type="text/css"></link>
-            <script data-ad-client="ca-pub-9580600822475194" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          </Helmet>
+          <link href="//fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet" title="Google Fonts" type="text/css"></link>
+          <script data-ad-client="ca-pub-9580600822475194" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Head>
         <body>
           <Main />
