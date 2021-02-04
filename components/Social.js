@@ -28,7 +28,7 @@ function Social() {
                     </a>
                 </li>
                 <li className={styles.socialLI}>
-                    <a href="https://www.youtube.com/artofdigging">
+                    <a href="https://www.youtube.com/channel/UCznpzLfbfSj6Pctxw80vkGw">
                         <Image className={styles.invertSVG} src="/youtube.svg" width="40" height="40" />
                     </a>
                 </li>
