@@ -9,27 +9,27 @@ function Social() {
             <ul className={styles.socialUL}>
                 <li className={styles.socialLI}>
                     <a href="https://www.facebook.com/artofdigging">
-                        <Image className={styles.invertSVG} src="/facebook.svg" width="20" height="20" />
+                        <Image className={styles.invertSVG} src="/facebook.svg" width="40" height="40" />
                     </a>
                 </li>
                 <li className={styles.socialLI}>
                     <a href="https://twitter.com/artofdigging">
-                        <Image className={styles.invertSVG} src="/twitter.svg" width="20" height="20" />        
+                        <Image className={styles.invertSVG} src="/twitter.svg" width="40" height="40" />        
                     </a>
                 </li>
                 <li className={styles.socialLI}>
                     <a href="https://instagram.com/artofdigging">
-                        <Image className={styles.invertSVG} src="/instagram.svg" width="20" height="20" />
+                        <Image className={styles.invertSVG} src="/instagram.svg" width="40" height="40" />
                     </a>
                 </li>
                 <li className={styles.socialLI}>
                     <a href="https://www.twitch.tv/artofdigging">
-                        <Image className={styles.invertSVG} src="/twitch.svg" width="20" height="20" />
+                        <Image className={styles.invertSVG} src="/twitch.svg" width="40" height="40" />
                     </a>
                 </li>
                 <li className={styles.socialLI}>
                     <a href="https://www.youtube.com/artofdigging">
-                        <Image className={styles.invertSVG} src="/youtube.svg" width="20" height="20" />
+                        <Image className={styles.invertSVG} src="/youtube.svg" width="40" height="40" />
                     </a>
                 </li>
             </ul>

@@ -42,24 +42,24 @@ function Subscribe() {
         <div className={ `${styles.subscribeSubTitle}`}>Subscribe for more information on when the site goes live!</div>
         <form onSubmit={subscribe} className={ `uk-grid-small uk-grid uk-grid-stack`} data-uk-grid>
 
-            {message ? message : (
-            <React.Fragment>
-                <div className="uk-width-3-4@s">
-                    <input
-                        id="email-input"
-                        name="email"
-                        placeholder="Enter your email"
-                        ref={inputEl}
-                        required
-                        type="email"
-                        className="uk-input"
-                    />
-                </div>
-            
-                <div className="uk-width-1-4@s">
-                    <button type="submit" className={`${styles.subscribeBtn} uk-button uk-button-default`}>{'SUBSCRIBE'}</button>
-                </div> 
-            </React.Fragment>
+            {message ? (<div className="uk-width-3-4@s uk-text-left">{message}</div>) : (
+                <React.Fragment>
+                    <div className="uk-width-3-4@s">
+                        <input
+                            id="email-input"
+                            name="email"
+                            placeholder="Enter your email"
+                            ref={inputEl}
+                            required
+                            type="email"
+                            className="uk-input"
+                        />
+                    </div>
+                
+                    <div className="uk-width-1-4@s">
+                        <button type="submit" className={`${styles.subscribeBtn} uk-button uk-button-default`}>{'SUBSCRIBE'}</button>
+                    </div> 
+                </React.Fragment>
             )}
         </form>
     </div>
