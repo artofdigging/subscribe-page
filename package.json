@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@rumess/react-flip-countdown": "^1.2.3",
+    "flipdown": "^0.3.2",
     "helmet": "^4.4.1",
     "next": "10.0.6",
     "react": "17.0.1",

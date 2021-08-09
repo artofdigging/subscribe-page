@@ -3,6 +3,8 @@ import styles from '../styles/Home.module.css'
 import Subscribe from '../components/Subscribe'
 import Logo from '../components/Logo'
 import Social from '../components/Social'
+import Countdown from '../components/Countdown'
+import Video from '../components/Video'
 
 export default function Home() {
   return (
@@ -13,7 +15,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
+        <Video />
+        <div className="content">
+          <Countdown />
           <Logo />
           <Subscribe />
           <Social />

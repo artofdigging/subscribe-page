@@ -1,5 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import {Helmet} from "react-helmet";
+import FlipDown from 'flipdown/dist/flipdown.js';
+
 
 export default class MyDocument extends Document {
   render() {
