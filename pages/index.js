@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Video />
+        {/*<Video />*/}
         <div className="content">
           <Countdown />
           <Logo />
