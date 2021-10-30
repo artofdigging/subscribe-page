@@ -39,7 +39,7 @@ function Subscribe() {
   return (
     <div className={styles.subscribeForm} >
         <div className={styles.subscribeTitle}>ART OF DIGGING</div>
-        <div className={ `${styles.subscribeSubTitle}`}>Subscribe for more information on when the site goes live!</div>
+        <div className={ `${styles.subscribeSubTitle}`}>Subscribe for exclusive access to the shop!</div>
         <form onSubmit={subscribe} className={ `uk-grid-small uk-grid uk-grid-stack`} data-uk-grid>
 
             {message ? (<div className="uk-width-3-4@s uk-text-left">{message}</div>) : (
