@@ -18,8 +18,9 @@ export default function Home() {
         {/*<Video />*/}
         <div className="content">
           {/*<Countdown />*/}
-          <Logo />
-          <Subscribe />
+          {/*<Logo />*/}
+          {/*<Subscribe />*/}
+          <div class="klaviyo-form-U3xiFw"></div>
           <Social />
         </div>
       </main>
